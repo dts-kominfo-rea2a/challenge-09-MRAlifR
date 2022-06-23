@@ -1,0 +1,40 @@
+.Contact {
+    background-color: bisque;
+	text-align: center;
+	color: #1d192b;
+	border-radius: 0.5rem;
+	width: 40%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+.Contact-photo {
+    border-radius: 50%;
+	width: 30%;
+	height: 30%;
+    
+}
+
+.Contact-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: baseline;
+}
+
+h6, p {
+    margin: 7px;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
